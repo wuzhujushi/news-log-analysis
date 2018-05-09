@@ -3,12 +3,13 @@
 ## Table of Contents
 
 * news-log-analysis.py
+* Example-of-output
 
 ## Requirements
 * python 3.XX
 
 ## Run it
-* Open the file `ententainment_center.py` with IDLE. In the window, select Run option of menu, then select Run Module to run the script. The page will load in your default webbrowser.
+* Open the file `news-log-analysis.py` with terminal. In the window, put the cmd "python news-log-analysis.py", then you will see the output of the program.
 
 ## Edit it
 * Open file with IDLE.
