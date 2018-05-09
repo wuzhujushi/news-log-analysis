@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * news-log-analysis.py
-* Example-of-output
+* Example-of-output.txt
 
 ## Requirements
 * python 3.XX
@@ -11,8 +11,10 @@
 ## Run it
 * Open the file `news-log-analysis.py` with terminal. In the window, put the cmd "python news-log-analysis.py", then you will see the output of the program.
 
+
 ## Edit it
-* Open file with IDLE.
+* Open the file `news-log-analysis.py`.
+* Open the file `Example-of-output.txt` with notepad or other unformatted editor.
 
 ## create view
 * create view errors to count the nums of requests lead to errors
