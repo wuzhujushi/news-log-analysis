@@ -22,7 +22,7 @@ query2 = "select authors.name, count(*) as nums \
             order by nums desc; "
 query3 = "select date, ratio || '%' as percentage \
             from  \
-            (select errors.date, round(cast (errors.error as \
+            (select errors.date, round(cast(errors.error as \
             decimal(18,2))/cast(requests.total as decimal(18,2))*100,2) \
             as ratio \
             from errors join requests \

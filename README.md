@@ -11,7 +11,6 @@
 ## Run it
 * Open the file `news-log-analysis.py` with terminal. In the window, put the cmd "python news-log-analysis.py", then you will see the output of the program.
 
-
 ## Edit it
 * Open the file `news-log-analysis.py`.
 * Open the file `Example-of-output.txt` with notepad or other unformatted editor.
