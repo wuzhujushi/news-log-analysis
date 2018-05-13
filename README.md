@@ -70,7 +70,7 @@ Running this command will connect to your installed database server and execute 
     ```
 
 ### Running the program
-Open the file `news-log-analysis.py` with terminal. In the window, run the cmd `python news-log-analysis.py`, then you will see the output of the program.
+Put this the file `news-log-analysis.py`  into the `vagrant` directory，Open it with terminal. In the window, run the cmd `python news-log-analysis.py`, then you will see the output of the program.
 
 ## Edit it
 * Open the file `news-log-analysis.py` with IDLE.
