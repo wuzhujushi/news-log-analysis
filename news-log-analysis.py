@@ -32,22 +32,22 @@ query3 = "select date, ratio || '%' as percentage \
 c.execute(query1)
 rows1 = c.fetchall()
 
-print "What are the most popular three articles of all time?"
+print "1.What are the most popular three articles of all time?"
 for row in rows1:
-    print "  ", row[0], row[1]
+    print "  ", row[0], "-", row[1], "views"
 
 c.execute(query2)
 rows2 = c.fetchall()
 
-print "Who are the most popular article authors of all time?"
+print "2.Who are the most popular article authors of all time?"
 for row in rows2:
-    print "  ", row[0], row[1]
+    print "  ", row[0], "-", row[1], "views"
 
 c.execute(query3)
 rows3 = c.fetchall()
 
-print "On which days did more than 1% of requests lead to errors?"
+print "3.On which days did more than 1% of requests lead to errors?"
 for row in rows3:
-    print "  ", row[0], row[1]
+    print "  ", row[0], row[1], "errors"
 
 db.close()
